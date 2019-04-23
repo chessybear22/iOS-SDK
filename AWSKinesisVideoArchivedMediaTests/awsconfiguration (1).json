@@ -1,0 +1,58 @@
+{
+  "UserAgent": "MobileHub/1.0",
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "us-east-1:a5fdf7eb-76a1-45bd-a107-6735867a4169",
+        "Region": "us-east-1"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CognitoUserPool": {
+    "Default": {
+      "PoolId": "us-east-1_QuGUJo7aU",
+      "AppClientId": "53ibnd6cpfs1kdktdabh2blbuc",
+      "AppClientSecret": "n16k7pg9cg1km67m1fqoehsjbcmo5l38vdo8d15p74r0vk5tej4",
+      "Region": "us-east-1"
+    }
+  },
+  "S3TransferUtility": {
+    "Default": {
+      "Bucket": "kinesis-userfiles-mobilehub-946153654",
+      "Region": "us-east-1"
+    }
+  },
+  "DynamoDBObjectMapper": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  },
+  "ContentManager": {
+    "Default": {
+      "Bucket": "kinesis-hosting-mobilehub-946153654",
+      "Region": "us-east-1",
+      "CloudFrontURL": "https://d2frsvw7o0dns5.cloudfront.net"
+    }
+  },
+  "PinpointAnalytics": {
+    "Default": {
+      "AppId": "b6a9987c07ba49558d60d747a034fc8a",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointTargeting": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  },
+  "UserFileManager": {
+    "Default": {
+      "Bucket": "kinesis-userfiles-mobilehub-946153654",
+      "Region": "us-east-1"
+    }
+  }
+}
